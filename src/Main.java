@@ -25,13 +25,13 @@ public class Main extends Application {
             BorderPane root = new BorderPane();
             Scene scene = new Scene(root,1920,1080);
 
-            Image stein7 = new Image(getClass().getResource("/Stein_7.png").toExternalForm(),150,0,true,false);
+            Image stein7 = new Image(getClass().getResource("/Stein_7.png").toExternalForm(),200,0,true,false);
             ImageView stein7_V = new ImageView(stein7);
-            Image stein10 = new Image(getClass().getResource("/Stein_10.png").toExternalForm(),150,0,true,false);
+            Image stein10 = new Image(getClass().getResource("/Stein_10.png").toExternalForm(),200,0,true,false);
             ImageView stein10_V = new ImageView(stein10);
-            Image stein27 = new Image(getClass().getResource("/Stein_27.png").toExternalForm(),150,0,true,false);
+            Image stein27 = new Image(getClass().getResource("/Stein_27.png").toExternalForm(),200,0,true,false);
             ImageView stein27_V = new ImageView(stein27);
-            Image stein39 = new Image(getClass().getResource("/Stein_39.png").toExternalForm(),150,0,true,false);
+            Image stein39 = new Image(getClass().getResource("/Stein_39.png").toExternalForm(),200,0,true,false);
             ImageView stein39_V = new ImageView(stein39);
 
 
@@ -105,6 +105,7 @@ public class Main extends Application {
 
             reiche.getChildren().addAll(reich_k1,reich_k2,reich_k3);
             feldR.setCenter(reiche);
+            //feldR.setTop(t);
             spielFeld.setRight(feldR);
 
 
